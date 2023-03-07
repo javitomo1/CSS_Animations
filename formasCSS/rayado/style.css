@@ -1,0 +1,45 @@
+.number_3 {
+  background: #000000;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+/*******************************************************/
+.container1 {
+  background: #000000;
+  width: 380px;
+  height: 380px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.rayao_1 {
+  margin-top: 100px;
+  background: linear-gradient(rgb(229, 165, 26), rgb(253, 248, 100), rgb(184, 169, 38));
+  height: 40px;
+  transform: skewX(20deg);
+  transform: skewY(20deg);
+}
+.rayao_2 {
+  background: linear-gradient(rgb(229, 165, 26), rgb(253, 248, 100), rgb(184, 169, 38));
+  margin-top: 10px;
+  height: 40px;
+  transform: skewX(20deg);
+  transform: skewY(20deg);
+}
+.rayao_3 {
+  background: linear-gradient(rgb(229, 165, 26), rgb(253, 248, 100), rgb(184, 169, 38));
+  margin-top: 10px;
+  height: 40px;
+  transform: skewX(20deg);
+  transform: skewY(20deg);
+}
+.rayao_4 {
+  background: linear-gradient(rgb(229, 165, 26), rgb(253, 248, 100), rgb(184, 169, 38));
+  margin-top: 10px;
+  height: 40px;
+  transform: skewX(20deg);
+  transform: skewY(20deg);
+}

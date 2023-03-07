@@ -1,0 +1,147 @@
+.number_1 {
+  background: #000000;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+.container {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  background: linear-gradient( to left, rgb(120, 3, 3), rgb(248, 48, 48), rgb(157, 4, 4));
+  top: 20px;
+  left: 20px;
+  animation-name: container;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes container {
+  0% {
+    background: linear-gradient( to left, rgb(100, 3, 3), rgb(250, 48, 48), rgb(150, 4, 4));
+  }
+  10% {
+    background: linear-gradient( to left, rgb(90, 3, 3), rgb(225, 48, 48), rgb(135, 4, 4));
+  }
+  20% {
+    background: linear-gradient( to left, rgb(80, 3, 3), rgb(200, 48, 48), rgb(120, 4, 4));
+  }
+  30% {
+    background: linear-gradient( to left, rgb(70, 3, 3), rgb(175, 48, 48), rgb(105, 4, 4));
+  }
+  40% {
+    background: linear-gradient( to left, rgb(60, 3, 3), rgb(150, 48, 48), rgb(90, 4, 4));
+  }
+  50% {
+    background: linear-gradient( to left, rgb(50, 3, 3), rgb(125, 48, 48), rgb(75, 4, 4));
+  }
+  60% {
+    background: linear-gradient( to left, rgb(40, 3, 3), rgb(100, 48, 48), rgb(60, 4, 4));
+  }
+  70% {
+    background: linear-gradient( to left, rgb(30, 3, 3), rgb(75, 48, 48), rgb(45, 4, 4));
+  }
+  80% {
+    background: linear-gradient( to left, rgb(20, 3, 3), rgb(50, 48, 48), rgb(30, 4, 4));
+  }
+  90% {
+    background: linear-gradient( to left, rgb(10, 3, 3), rgb(25, 48, 48), rgb(15, 4, 4));
+  }
+  92% {
+    background: linear-gradient( to left, rgb(8,3,3), rgb(20,38,38), rgb(12,4,4));   
+  }
+  94% {
+    background: linear-gradient( to left, rgb(6,2,2), rgb(15,28,28), rgb(9,3,3));   
+  }
+  96% {
+    background: linear-gradient( to left, rgb(4,2,2), rgb(10,18,18), rgb(6,2,2));   
+  }
+  98% {
+    background: linear-gradient( to left, rgb(2,1,1), rgb(5,8,8), rgb(3,0,0));   
+  }
+  99% {
+    background: linear-gradient( to left, rgb(0,0,0), rgb(0,0,0), rgb(0,0,0));   
+  }
+  100% {
+    background: linear-gradient( to left, rgb(0,0,0), rgb(0,0,0), rgb(0,0,0));   
+  }
+}
+.barra_1 {
+  height: 360px;
+  background: #535353;
+  animation-name: barra_1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+@keyframes barra_1 {
+  from {
+    background: #fff;
+  }
+  to {
+    transform: scaleX(0);
+    background: #000;    
+  }
+}
+span {
+  position: absolute;
+  color: rgb(203, 0, 139);
+  font-size: 250px;
+  top: 0;
+  left: 100px;
+}
+.tres {
+  animation-name: tres;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+@keyframes tres {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.dos {
+  animation-name: dos;
+  animation-duration: 3s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+@keyframes dos {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.uno {
+  animation-name: uno;
+  animation-duration: 3s;
+  animation-delay: -1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+@keyframes uno {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

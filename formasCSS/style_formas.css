@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*BODY*/
+body {
+  font-family: "Roboto Mono";
+  height: 100%;
+  color: #fff;
+}
+/*HEADER*/
+header {
+  height: 100px;
+  background: #000000;
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+/*SECTION*/
+section {
+  background: #000000;
+
+}
+h2{
+  text-align: center;
+  font-size: 1.8em;
+}
+hr {
+  width: 50%;
+  margin: 0 auto;
+}
+.divisor {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+footer {
+  background: #000;
+  height: 150px;
+}
+.pie {
+  text-align: center;
+}
+footer p {
+  font-size: 25px;
+  display: inline;
+  line-height: 150px;
+}
+.fa-brands {
+  font-size: 25px;
+  margin-left: 20px;
+}

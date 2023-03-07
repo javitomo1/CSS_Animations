@@ -1,0 +1,114 @@
+.number_2 {
+  background: #000000;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+  outline: 2px solid white;
+}
+
+/**ARTICULOS**/
+/*forma 1*/
+.forma_1 {
+  background: #828282;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  position: absolute;
+  animation-name: forma_1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes forma_1 {
+  0% {
+    top: 10px;
+    left: 10px;
+  }
+  25% {
+    top: 10px;
+    left: 90px;
+  }
+  50% {
+    top: 90px;
+    left: 90px;
+  }
+  75% {
+    top: 90px;
+    left: 10px;
+  }
+  100% {
+    top: 10px;
+    left: 10px;
+  }
+}
+.elementos8 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: elementos_8;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes elementos_8 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.elem_1 {
+  background: #376576;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.elem_2 {
+  background: #376576;
+  position: absolute;
+  top: -10px;
+  left: 210px;
+
+}
+.elem_3 {
+  background: #376576;
+  position: absolute;
+  top: 210px;
+  left: -10px;
+
+}
+.elem_4 {
+  background: #376576;
+  position: absolute;
+  top: 210px;
+  left: 210px;
+}
+.rueda_1 {
+  margin-top: 45px;
+  height: 10px;
+  background: #000;
+  
+}
+.rueda_2 {
+  margin-top: 45px;
+  height: 10px;
+  background: #000;
+  
+}
+.rueda_3 {
+  margin-top: 45px;
+  height: 10px;
+  background: #000;
+  
+}
+.rueda_4 {
+  margin-top: 45px;
+  height: 10px;
+  background: #000;
+  
+}
